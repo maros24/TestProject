@@ -1,0 +1,11 @@
+# cached
+.idea
+*.iml
+**/target
+
+# Log file
+*.log
+logs/**
+
+
+
