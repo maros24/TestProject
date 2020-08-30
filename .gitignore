@@ -1,6 +1,7 @@
 # cached
 .idea
 *.iml
+.allure
 **/target
 **/allure-results
 
