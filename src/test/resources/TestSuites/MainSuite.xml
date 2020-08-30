@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MainSuite">
+    <suite-files>
+        <suite-file path="LogIn1ThreadSuite.xml" />
+        <suite-file path="LogIn2ThreadsSuite.xml" />
+        <suite-file path="LogIn5ThreadsSuite.xml" />
+        <suite-file path="LogIn10ThreadsSuite.xml" />
+    </suite-files>
+</suite>
