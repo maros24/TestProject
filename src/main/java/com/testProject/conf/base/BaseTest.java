@@ -13,13 +13,18 @@ public class BaseTest {
     protected WebDriver driver;
     protected Logger log;
 
+    @Parameters({"isClean"})
+    @BeforeSuite(alwaysRun=true)
+    public void setUpSuite(@Optional("false") String isClean){
+        if (isClean.equals("true")) { Utils.deleteLogFile(); } //delete file with emails if parameter is true
+    }
+
     @Parameters({"browser"})
     @BeforeMethod(alwaysRun = true)
     public void setUp(@Optional("ie") String browser, ITestContext ctx) {
 
         String testName = ctx.getCurrentXmlTest().getName();
         log = LogManager.getLogger(testName);
-
         DriverFactory factory = new DriverFactory(browser, log);
         driver = factory.createDriver();
 

@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.time.Duration;
 
 public class Utils extends BaseTest {
@@ -23,6 +24,16 @@ public class Utils extends BaseTest {
     public static String getRandomEmail() {
         Faker faker = new Faker();
         return faker.internet().emailAddress();
+    }
+
+    public static void deleteLogFile() {
+        File file = new File("target/app.log");
+        try{
+            file.delete();
+        }
+        catch (Exception ex){
+            ex.printStackTrace();
+        }
     }
 
     public static void waitForElement(WebDriver driver, WebElement element, int timeOutInSeconds) {
