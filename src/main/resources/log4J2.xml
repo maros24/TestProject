@@ -7,7 +7,7 @@
 		</Console>
 		<File name="MyFile" fileName="target/app.log">
 			<PatternLayout>
-				<Pattern> %p %c{1.} [%t] %m%n</Pattern>
+				<Pattern> %c{1.} %m%n</Pattern>
 			</PatternLayout>
 		</File>
 	</Appenders>
