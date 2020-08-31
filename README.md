@@ -31,7 +31,7 @@ Also it contains Page Object classes.
 
 Package `com.testProject.tests` contains tests which will be executed.
 
-Folder `src\test\resources\testSuites` contains test suites (for different threads) for running. There is main suite that runs all suites (for different threads number).
+Folder `src\test\resources\testSuites` contains test suites (for different thread number) for running. There is main suite that runs all suites (for different threads number).
 
 
 
