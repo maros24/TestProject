@@ -11,6 +11,7 @@ $ ./mvn clean test site
 List of used emails and measurement of execution time will be generated to `target/app.log` file.
 
 Default TestNG report will be generated to `target/surefire-reports` folder.
+
 Allure report will be generated to `target/site/allure-maven-plugin` folder. (There is underinvestigated issue. It creates report not for all test suites)
 
 
