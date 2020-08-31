@@ -28,5 +28,4 @@ public class BasePage {
 		return driver.findElement(locator);
 	}
 
-
 }

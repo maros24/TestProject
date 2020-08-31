@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-31T07:05:58Z" name="2ThreadsSuite" finished-at="2020-08-31T07:06:11Z" duration-ms="13697">
+    <groups>
+    </groups>
+    <test started-at="2020-08-31T07:05:58Z" name="2ThreadsTestCH" finished-at="2020-08-31T07:06:11Z" duration-ms="13082">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUpSuite(java.lang.String)[pri:0, instance:com.testProject.tests.LoginTest@c3fa05a]" started-at="2020-08-31T07:05:58Z" name="setUpSuite" finished-at="2020-08-31T07:05:58Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@c3fa05a]" started-at="2020-08-31T07:05:58Z" name="setUp" finished-at="2020-08-31T07:06:05Z" duration-ms="7080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@408573b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@c3fa05a]" started-at="2020-08-31T07:06:05Z" name="logInTest" finished-at="2020-08-31T07:06:10Z" duration-ms="5186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@c3fa05a]" started-at="2020-08-31T07:06:10Z" name="tearDown" finished-at="2020-08-31T07:06:11Z" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 2ThreadsTestCH -->
+    <test started-at="2020-08-31T07:05:58Z" name="2ThreadsTestsIE" finished-at="2020-08-31T07:06:11Z" duration-ms="13697">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@72ba28ee]" started-at="2020-08-31T07:05:58Z" name="setUp" finished-at="2020-08-31T07:06:00Z" duration-ms="2046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2be89ba5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@72ba28ee]" started-at="2020-08-31T07:06:00Z" name="logInTest" finished-at="2020-08-31T07:06:11Z" duration-ms="10770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@72ba28ee]" started-at="2020-08-31T07:06:11Z" name="tearDown" finished-at="2020-08-31T07:06:11Z" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 2ThreadsTestsIE -->
+  </suite> <!-- 2ThreadsSuite -->
+  <suite started-at="2020-08-31T07:05:26Z" name="1ThreadSuite" finished-at="2020-08-31T07:05:58Z" duration-ms="32231">
+    <groups>
+    </groups>
+    <test started-at="2020-08-31T07:05:26Z" name="1ThreadTestIE" finished-at="2020-08-31T07:05:45Z" duration-ms="19304">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@5bb8f9e2]" started-at="2020-08-31T07:05:26Z" name="setUp" finished-at="2020-08-31T07:05:32Z" duration-ms="5977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b7600ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@5bb8f9e2]" started-at="2020-08-31T07:05:32Z" name="logInTest" finished-at="2020-08-31T07:05:44Z" duration-ms="11645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@5bb8f9e2]" started-at="2020-08-31T07:05:44Z" name="tearDown" finished-at="2020-08-31T07:05:45Z" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 1ThreadTestIE -->
+    <test started-at="2020-08-31T07:05:45Z" name="1ThreadTestCH" finished-at="2020-08-31T07:05:58Z" duration-ms="12735">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUpSuite(java.lang.String)[pri:0, instance:com.testProject.tests.LoginTest@72458efc]" started-at="2020-08-31T07:05:25Z" name="setUpSuite" finished-at="2020-08-31T07:05:26Z" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@72458efc]" started-at="2020-08-31T07:05:45Z" name="setUp" finished-at="2020-08-31T07:05:52Z" duration-ms="6569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@43f23338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@72458efc]" started-at="2020-08-31T07:05:52Z" name="logInTest" finished-at="2020-08-31T07:05:57Z" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@72458efc]" started-at="2020-08-31T07:05:57Z" name="tearDown" finished-at="2020-08-31T07:05:58Z" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 1ThreadTestCH -->
+  </suite> <!-- 1ThreadSuite -->
+  <suite started-at="2020-08-31T07:06:12Z" name="5ThreadsSuite" finished-at="2020-08-31T07:06:42Z" duration-ms="29356">
+    <groups>
+    </groups>
+    <test started-at="2020-08-31T07:06:12Z" name="5ThreadTestCH2" finished-at="2020-08-31T07:06:40Z" duration-ms="28017">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@27068a50]" started-at="2020-08-31T07:06:12Z" name="setUp" finished-at="2020-08-31T07:06:25Z" duration-ms="12445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@17d3bf09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@27068a50]" started-at="2020-08-31T07:06:25Z" name="logInTest" finished-at="2020-08-31T07:06:35Z" duration-ms="10455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@27068a50]" started-at="2020-08-31T07:06:35Z" name="tearDown" finished-at="2020-08-31T07:06:40Z" duration-ms="5020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 5ThreadTestCH2 -->
+    <test started-at="2020-08-31T07:06:12Z" name="5ThreadTestCH1" finished-at="2020-08-31T07:06:41Z" duration-ms="28642">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@5cbb84b1]" started-at="2020-08-31T07:06:12Z" name="setUp" finished-at="2020-08-31T07:06:25Z" duration-ms="12811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c4142f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@5cbb84b1]" started-at="2020-08-31T07:06:25Z" name="logInTest" finished-at="2020-08-31T07:06:36Z" duration-ms="10327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@5cbb84b1]" started-at="2020-08-31T07:06:36Z" name="tearDown" finished-at="2020-08-31T07:06:41Z" duration-ms="5472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 5ThreadTestCH1 -->
+    <test started-at="2020-08-31T07:06:12Z" name="5ThreadTestIE2" finished-at="2020-08-31T07:06:41Z" duration-ms="28800">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@5432050b]" started-at="2020-08-31T07:06:12Z" name="setUp" finished-at="2020-08-31T07:06:16Z" duration-ms="3864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ef8cfbb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@5432050b]" started-at="2020-08-31T07:06:16Z" name="logInTest" finished-at="2020-08-31T07:06:40Z" duration-ms="23174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@5432050b]" started-at="2020-08-31T07:06:40Z" name="tearDown" finished-at="2020-08-31T07:06:41Z" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 5ThreadTestIE2 -->
+    <test started-at="2020-08-31T07:06:12Z" name="5ThreadTestCH3" finished-at="2020-08-31T07:06:41Z" duration-ms="28845">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUpSuite(java.lang.String)[pri:0, instance:com.testProject.tests.LoginTest@715fb77]" started-at="2020-08-31T07:06:12Z" name="setUpSuite" finished-at="2020-08-31T07:06:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@715fb77]" started-at="2020-08-31T07:06:12Z" name="setUp" finished-at="2020-08-31T07:06:26Z" duration-ms="13238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@47db5b8f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@715fb77]" started-at="2020-08-31T07:06:26Z" name="logInTest" finished-at="2020-08-31T07:06:37Z" duration-ms="11592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@715fb77]" started-at="2020-08-31T07:06:37Z" name="tearDown" finished-at="2020-08-31T07:06:41Z" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 5ThreadTestCH3 -->
+    <test started-at="2020-08-31T07:06:12Z" name="5ThreadTestIE1" finished-at="2020-08-31T07:06:42Z" duration-ms="29356">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@1136b469]" started-at="2020-08-31T07:06:12Z" name="setUp" finished-at="2020-08-31T07:06:16Z" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ca8bd50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@1136b469]" started-at="2020-08-31T07:06:16Z" name="logInTest" finished-at="2020-08-31T07:06:40Z" duration-ms="24358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@1136b469]" started-at="2020-08-31T07:06:40Z" name="tearDown" finished-at="2020-08-31T07:06:41Z" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 5ThreadTestIE1 -->
+  </suite> <!-- 5ThreadsSuite -->
+  <suite started-at="2020-08-31T07:07:33Z" name="MainSuite" finished-at="2020-08-31T07:07:33Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MainSuite -->
+  <suite started-at="2020-08-31T07:06:42Z" name="10ThreadsSuite" finished-at="2020-08-31T07:07:32Z" duration-ms="50614">
+    <groups>
+    </groups>
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH7" finished-at="2020-08-31T07:07:02Z" duration-ms="20072">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUpSuite(java.lang.String)[pri:0, instance:com.testProject.tests.LoginTest@37a64f9d]" started-at="2020-08-31T07:06:42Z" name="setUpSuite" finished-at="2020-08-31T07:06:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@37a64f9d]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:06:55Z" duration-ms="13280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2cb95c6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@37a64f9d]" started-at="2020-08-31T07:06:55Z" name="logInTest" finished-at="2020-08-31T07:07:01Z" duration-ms="5933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@37a64f9d]" started-at="2020-08-31T07:07:01Z" name="tearDown" finished-at="2020-08-31T07:07:02Z" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH7 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestIE1" finished-at="2020-08-31T07:07:23Z" duration-ms="41631">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@7c974942]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:06:48Z" duration-ms="6049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@a49995f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@7c974942]" started-at="2020-08-31T07:06:48Z" name="logInTest" finished-at="2020-08-31T07:07:22Z" duration-ms="34326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@7c974942]" started-at="2020-08-31T07:07:22Z" name="tearDown" finished-at="2020-08-31T07:07:23Z" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestIE1 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestIE3" finished-at="2020-08-31T07:07:23Z" duration-ms="41787">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@1a5b8489]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:06:48Z" duration-ms="5848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e250539]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@1a5b8489]" started-at="2020-08-31T07:06:48Z" name="logInTest" finished-at="2020-08-31T07:07:23Z" duration-ms="35323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@1a5b8489]" started-at="2020-08-31T07:07:23Z" name="tearDown" finished-at="2020-08-31T07:07:23Z" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestIE3 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH6" finished-at="2020-08-31T07:07:30Z" duration-ms="47859">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@47b2e9e1]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:06:55Z" duration-ms="12850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a8ae302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@47b2e9e1]" started-at="2020-08-31T07:06:55Z" name="logInTest" finished-at="2020-08-31T07:07:05Z" duration-ms="10486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@47b2e9e1]" started-at="2020-08-31T07:07:05Z" name="tearDown" finished-at="2020-08-31T07:07:30Z" duration-ms="24299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH6 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH1" finished-at="2020-08-31T07:07:30Z" duration-ms="48719">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@cda0432]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:07:00Z" duration-ms="18370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@cb03360]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@cda0432]" started-at="2020-08-31T07:07:00Z" name="logInTest" finished-at="2020-08-31T07:07:13Z" duration-ms="12686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@cda0432]" started-at="2020-08-31T07:07:13Z" name="tearDown" finished-at="2020-08-31T07:07:30Z" duration-ms="17588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH1 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestIE2" finished-at="2020-08-31T07:07:31Z" duration-ms="48971">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@6b580b88]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:06:48Z" duration-ms="5996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5860e4c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@6b580b88]" started-at="2020-08-31T07:06:48Z" name="logInTest" finished-at="2020-08-31T07:07:29Z" duration-ms="41755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@6b580b88]" started-at="2020-08-31T07:07:29Z" name="tearDown" finished-at="2020-08-31T07:07:31Z" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestIE2 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH3" finished-at="2020-08-31T07:07:31Z" duration-ms="49441">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@34cf5a97]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:07:02Z" duration-ms="20063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@65134e6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@34cf5a97]" started-at="2020-08-31T07:07:02Z" name="logInTest" finished-at="2020-08-31T07:07:20Z" duration-ms="18396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@34cf5a97]" started-at="2020-08-31T07:07:20Z" name="tearDown" finished-at="2020-08-31T07:07:31Z" duration-ms="10857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH3 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH4" finished-at="2020-08-31T07:07:32Z" duration-ms="50414">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@1dab9dd6]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:07:01Z" duration-ms="19493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3fd93330]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@1dab9dd6]" started-at="2020-08-31T07:07:01Z" name="logInTest" finished-at="2020-08-31T07:07:21Z" duration-ms="19614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@1dab9dd6]" started-at="2020-08-31T07:07:21Z" name="tearDown" finished-at="2020-08-31T07:07:32Z" duration-ms="11066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH4 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH5" finished-at="2020-08-31T07:07:32Z" duration-ms="50547">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@6bcbf05b]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:07:00Z" duration-ms="18767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1484cb57]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@6bcbf05b]" started-at="2020-08-31T07:07:00Z" name="logInTest" finished-at="2020-08-31T07:07:17Z" duration-ms="16913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@6bcbf05b]" started-at="2020-08-31T07:07:17Z" name="tearDown" finished-at="2020-08-31T07:07:32Z" duration-ms="14845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH5 -->
+    <test started-at="2020-08-31T07:06:42Z" name="10ThreadTestCH2" finished-at="2020-08-31T07:07:32Z" duration-ms="50603">
+      <class name="com.testProject.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.testProject.tests.LoginTest@7c28c1]" started-at="2020-08-31T07:06:42Z" name="setUp" finished-at="2020-08-31T07:07:01Z" duration-ms="19233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3edc999f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logInTest()[pri:0, instance:com.testProject.tests.LoginTest@7c28c1]" started-at="2020-08-31T07:07:01Z" name="logInTest" finished-at="2020-08-31T07:07:20Z" duration-ms="19529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testProject.tests.LoginTest@7c28c1]" started-at="2020-08-31T07:07:21Z" name="tearDown" finished-at="2020-08-31T07:07:32Z" duration-ms="11802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testProject.tests.LoginTest -->
+    </test> <!-- 10ThreadTestCH2 -->
+  </suite> <!-- 10ThreadsSuite -->
+</testng-results>

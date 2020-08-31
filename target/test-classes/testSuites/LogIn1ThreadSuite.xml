@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="1ThreadSuite" verbose="1">
+	<parameter name="isClean" value="true"/>
+
+	<test name="1ThreadTestIE">
+		<parameter name="browser" value="ie"/>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="1ThreadTestCH">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+	
+</suite>

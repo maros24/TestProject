@@ -1,0 +1,328 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "morozov-pc",
+    "children" : [ {
+      "name" : "9072@morozov-pc.TestNG-tests-2(32)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "c688d2321d363ed2",
+        "parentUid" : "7892c96ef3c0262bab061e7b27b2de07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857565369,
+          "stop" : 1598857570551,
+          "duration" : 5182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "7892c96ef3c0262bab061e7b27b2de07"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-9(73)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "8388bf052502c73d",
+        "parentUid" : "9161d93e1b63e829324b2974d243faca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857615110,
+          "stop" : 1598857625588,
+          "duration" : 10478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "9161d93e1b63e829324b2974d243faca"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-5(45)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "1c52c2cb583da67",
+        "parentUid" : "b6540fcef2dc36c4c4ee624e6dd30e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857586156,
+          "stop" : 1598857597743,
+          "duration" : 11587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "b6540fcef2dc36c4c4ee624e6dd30e2e"
+    }, {
+      "name" : "9072@morozov-pc.main(1)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "8966f902ff01db09",
+        "parentUid" : "d01bcbcbdcfb27ac0635a13bce5c44d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857533033,
+          "stop" : 1598857544385,
+          "duration" : 11352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie", "true" ]
+      }, {
+        "name" : "logInTest",
+        "uid" : "ba2e7959d835d10",
+        "parentUid" : "d01bcbcbdcfb27ac0635a13bce5c44d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857552111,
+          "stop" : 1598857557587,
+          "duration" : 5476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome", "true" ]
+      } ],
+      "uid" : "d01bcbcbdcfb27ac0635a13bce5c44d2"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-10(74)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "3edd4593007152a5",
+        "parentUid" : "3099a569b30250dd9f08a77785c2a294",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857615500,
+          "stop" : 1598857621429,
+          "duration" : 5929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "3099a569b30250dd9f08a77785c2a294"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-7(71)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "23a9b293c6ce1d72",
+        "parentUid" : "24ef16861584dc6212f2b16637546c73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857621942,
+          "stop" : 1598857641415,
+          "duration" : 19473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "24ef16861584dc6212f2b16637546c73"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-4(68)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "cf5b89ade392540c",
+        "parentUid" : "309da1417cc32025fd66c32b2c7fcaf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857620648,
+          "stop" : 1598857633327,
+          "duration" : 12679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "309da1417cc32025fd66c32b2c7fcaf7"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-1(65)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "29c1a47d3259e4b3",
+        "parentUid" : "41cd594cff298f7a1af4bfa78c7d0566",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857608272,
+          "stop" : 1598857642579,
+          "duration" : 34307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      } ],
+      "uid" : "41cd594cff298f7a1af4bfa78c7d0566"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-6(70)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "779f6b2efd88b1ae",
+        "parentUid" : "db71d4e1ca721254db982cc20d3e027c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857622370,
+          "stop" : 1598857640764,
+          "duration" : 18394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "db71d4e1ca721254db982cc20d3e027c"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-2(42)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "724da142d41794ce",
+        "parentUid" : "53995df900efa0d1d3053a72f13bac7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857577007,
+          "stop" : 1598857600171,
+          "duration" : 23164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      } ],
+      "uid" : "53995df900efa0d1d3053a72f13bac7d"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-1(31)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "4fe6a89bf4463fe9",
+        "parentUid" : "2e223b08023a5d039704454e4ee4c1f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857560342,
+          "stop" : 1598857571101,
+          "duration" : 10759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      } ],
+      "uid" : "2e223b08023a5d039704454e4ee4c1f6"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-1(41)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "95d9491305d3ea3d",
+        "parentUid" : "69be2023ef0bd93c1d14405ceeb0e82a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857576533,
+          "stop" : 1598857600886,
+          "duration" : 24353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      } ],
+      "uid" : "69be2023ef0bd93c1d14405ceeb0e82a"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-2(66)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "c2d7ae4b7b74814d",
+        "parentUid" : "d942aa85b779801ff5b735b14d7ac188",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857608272,
+          "stop" : 1598857649985,
+          "duration" : 41713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      } ],
+      "uid" : "d942aa85b779801ff5b735b14d7ac188"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-3(43)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "6dcee385ece670d9",
+        "parentUid" : "332887c0b45c98e77a665168a914ea0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857585708,
+          "stop" : 1598857596032,
+          "duration" : 10324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "332887c0b45c98e77a665168a914ea0b"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-8(72)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "70d43ef0dd6a7551",
+        "parentUid" : "4336802e913742da7ade72ef0d2925f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857620990,
+          "stop" : 1598857637899,
+          "duration" : 16909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "4336802e913742da7ade72ef0d2925f5"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-5(69)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "5b65705b9e86821a",
+        "parentUid" : "82591109fae061083b4c3cbf330218a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857621508,
+          "stop" : 1598857640998,
+          "duration" : 19490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "82591109fae061083b4c3cbf330218a5"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-3(67)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "6ee87129ca4616db",
+        "parentUid" : "30e7e4cd7388ed4c37a8487d17f5620f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857608084,
+          "stop" : 1598857643400,
+          "duration" : 35316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "ie" ]
+      } ],
+      "uid" : "30e7e4cd7388ed4c37a8487d17f5620f"
+    }, {
+      "name" : "9072@morozov-pc.TestNG-tests-4(44)",
+      "children" : [ {
+        "name" : "logInTest",
+        "uid" : "31cde3997cac222f",
+        "parentUid" : "c3031fbc02cd01613d791b6802e15595",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598857585407,
+          "stop" : 1598857595859,
+          "duration" : 10452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "c3031fbc02cd01613d791b6802e15595"
+    } ],
+    "uid" : "7cf33e3029e38ab356e40401acec4283"
+  } ]
+}

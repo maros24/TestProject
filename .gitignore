@@ -2,7 +2,7 @@
 .idea
 *.iml
 .allure
-**/target
+#**/target
 **/allure-results
 
 # Log file

@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="5ThreadsSuite" verbose="1" parallel="tests" thread-count="5">
+	
+	<test name="5ThreadTestIE1">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="5ThreadTestIE2">
+		<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="5ThreadTestCH1">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="5ThreadTestCH2">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="5ThreadTestCH3">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.testProject.tests.LoginTest" />
+		</classes>
+	</test>
+	
+</suite>

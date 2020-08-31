@@ -1,0 +1,111 @@
+{
+  "uid" : "3edd4593007152a5",
+  "name" : "logInTest",
+  "fullName" : "com.testProject.tests.LoginTest.logInTest",
+  "historyId" : "99b129ae2bc2d6e1caa84b1ce4470238",
+  "time" : {
+    "start" : 1598857615500,
+    "stop" : 1598857621429,
+    "duration" : 5929
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1598857602216,
+      "stop" : 1598857615495,
+      "duration" : 13279
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUpSuite",
+    "time" : {
+      "start" : 1598857602171,
+      "stop" : 1598857602171,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1598857621432,
+      "stop" : 1598857622197,
+      "duration" : 765
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testProject.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testProject.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logInTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "10ThreadsSuite"
+  }, {
+    "name" : "suite",
+    "value" : "10ThreadTestCH7"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testProject.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "morozov-pc"
+  }, {
+    "name" : "thread",
+    "value" : "9072@morozov-pc.TestNG-tests-10(74)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3edd4593007152a5.json",
+  "parameterValues" : [ "chrome" ]
+}

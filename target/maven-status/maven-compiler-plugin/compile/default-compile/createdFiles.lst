@@ -1,0 +1,5 @@
+com\testProject\conf\pages\BasePage.class
+com\testProject\conf\pages\LoginPage.class
+com\testProject\conf\base\BaseTest.class
+com\testProject\conf\base\Utils.class
+com\testProject\conf\base\DriverFactory.class

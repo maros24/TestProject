@@ -21,7 +21,7 @@ public class BaseTest {
 
     @Parameters({"browser"})
     @BeforeMethod(alwaysRun = true)
-    public void setUp(@Optional("ie") String browser, ITestContext ctx) {
+    public void setUp(@Optional("chrome") String browser, ITestContext ctx) {
 
         String testName = ctx.getCurrentXmlTest().getName();
         log = LogManager.getLogger(testName);

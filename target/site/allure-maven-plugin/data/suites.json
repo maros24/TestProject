@@ -1,0 +1,97 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "1ThreadSuite",
+    "children" : [ {
+      "name" : "1ThreadTestIE",
+      "children" : [ {
+        "name" : "com.testProject.tests.LoginTest",
+        "children" : [ {
+          "name" : "logInTest",
+          "uid" : "8966f902ff01db09",
+          "parentUid" : "844dbf4300c0fdcdf92cf9372f885be3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598857533033,
+            "stop" : 1598857544385,
+            "duration" : 11352
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ie", "true" ]
+        } ],
+        "uid" : "844dbf4300c0fdcdf92cf9372f885be3"
+      } ],
+      "uid" : "bdc256cf341d6bcdd5e16e59faf9f629"
+    }, {
+      "name" : "1ThreadTestCH",
+      "children" : [ {
+        "name" : "com.testProject.tests.LoginTest",
+        "children" : [ {
+          "name" : "logInTest",
+          "uid" : "ba2e7959d835d10",
+          "parentUid" : "370481774203ea825795fac3c7272201",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598857552111,
+            "stop" : 1598857557587,
+            "duration" : 5476
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome", "true" ]
+        } ],
+        "uid" : "370481774203ea825795fac3c7272201"
+      } ],
+      "uid" : "474437ee86dbd66b26e2ac0efd48bb1d"
+    } ],
+    "uid" : "e739385b2d2d0b01956653aca5a8f35e"
+  }, {
+    "name" : "10ThreadsSuite",
+    "children" : [ {
+      "name" : "10ThreadTestIE1",
+      "children" : [ {
+        "name" : "com.testProject.tests.LoginTest",
+        "children" : [ {
+          "name" : "logInTest",
+          "uid" : "29c1a47d3259e4b3",
+          "parentUid" : "b31c0df8c0fa051ebe2d3a17b93b7fa6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598857608272,
+            "stop" : 1598857642579,
+            "duration" : 34307
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "ie" ]
+        } ],
+        "uid" : "b31c0df8c0fa051ebe2d3a17b93b7fa6"
+      } ],
+      "uid" : "82ac7709d770b25a50eacd8f1b79eb01"
+    }, {
+      "name" : "10ThreadTestCH3",
+      "children" : [ {
+        "name" : "com.testProject.tests.LoginTest",
+        "children" : [ {
+          "name" : "logInTest",
+          "uid" : "779f6b2efd88b1ae",
+          "parentUid" : "4b1ec108c9f09e5bbdb63bf5a93983fa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1598857622370,
+            "stop" : 1598857640764,
+            "duration" : 18394
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "chrome" ]
+        } ],
+        "uid" : "4b1ec108c9f09e5bbdb63bf5a93983fa"
+      } ],
+      "uid" : "ba1fb4c571e007b7a704bd27443e2fca"
+    } ],
+    "uid" : "97332bf6a78535d7f2c416f577cfa192"
+  } ]
+}

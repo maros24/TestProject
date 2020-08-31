@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Aug 31 10:05:33 MSK 2020","Mon Aug 31 10:05:44 MSK 2020","11352","1ThreadSuite","1ThreadTestIE","com.testProject.tests.LoginTest","com.testProject.tests.LoginTest","logInTest","logInTest",""
+"passed","Mon Aug 31 10:07:02 MSK 2020","Mon Aug 31 10:07:20 MSK 2020","18394","10ThreadsSuite","10ThreadTestCH3","com.testProject.tests.LoginTest","com.testProject.tests.LoginTest","logInTest","logInTest",""
+"passed","Mon Aug 31 10:05:52 MSK 2020","Mon Aug 31 10:05:57 MSK 2020","5476","1ThreadSuite","1ThreadTestCH","com.testProject.tests.LoginTest","com.testProject.tests.LoginTest","logInTest","logInTest",""
+"passed","Mon Aug 31 10:06:48 MSK 2020","Mon Aug 31 10:07:22 MSK 2020","34307","10ThreadsSuite","10ThreadTestIE1","com.testProject.tests.LoginTest","com.testProject.tests.LoginTest","logInTest","logInTest",""

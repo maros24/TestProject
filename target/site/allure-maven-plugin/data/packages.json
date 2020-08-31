@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.testProject.tests.LoginTest",
+    "children" : [ {
+      "name" : "logInTest",
+      "uid" : "8966f902ff01db09",
+      "parentUid" : "1d97426021a141d7e808135a4a273621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857533033,
+        "stop" : 1598857544385,
+        "duration" : 11352
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "ie", "true" ]
+    }, {
+      "name" : "logInTest",
+      "uid" : "ba2e7959d835d10",
+      "parentUid" : "1d97426021a141d7e808135a4a273621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857552111,
+        "stop" : 1598857557587,
+        "duration" : 5476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome", "true" ]
+    }, {
+      "name" : "logInTest",
+      "uid" : "29c1a47d3259e4b3",
+      "parentUid" : "1d97426021a141d7e808135a4a273621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857608272,
+        "stop" : 1598857642579,
+        "duration" : 34307
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "ie" ]
+    }, {
+      "name" : "logInTest",
+      "uid" : "779f6b2efd88b1ae",
+      "parentUid" : "1d97426021a141d7e808135a4a273621",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857622370,
+        "stop" : 1598857640764,
+        "duration" : 18394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "com.testProject.tests.LoginTest"
+  } ]
+}

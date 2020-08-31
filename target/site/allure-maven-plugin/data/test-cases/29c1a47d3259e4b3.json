@@ -1,0 +1,153 @@
+{
+  "uid" : "29c1a47d3259e4b3",
+  "name" : "logInTest",
+  "fullName" : "com.testProject.tests.LoginTest.logInTest",
+  "historyId" : "54b52b0c3ece39872afa7e275bd4ce5d",
+  "time" : {
+    "start" : 1598857608272,
+    "stop" : 1598857642579,
+    "duration" : 34307
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1598857602207,
+      "stop" : 1598857608251,
+      "duration" : 6044
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setUpSuite",
+    "time" : {
+      "start" : 1598857602171,
+      "stop" : 1598857602171,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1598857642582,
+      "stop" : 1598857643818,
+      "duration" : 1236
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testProject.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testProject.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "logInTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "10ThreadsSuite"
+  }, {
+    "name" : "suite",
+    "value" : "10ThreadTestIE1"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testProject.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "morozov-pc"
+  }, {
+    "name" : "thread",
+    "value" : "9072@morozov-pc.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "ie"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2d7ae4b7b74814d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857608272,
+        "stop" : 1598857649985,
+        "duration" : 41713
+      }
+    }, {
+      "uid" : "6ee87129ca4616db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857608084,
+        "stop" : 1598857643400,
+        "duration" : 35316
+      }
+    }, {
+      "uid" : "724da142d41794ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857577007,
+        "stop" : 1598857600171,
+        "duration" : 23164
+      }
+    }, {
+      "uid" : "95d9491305d3ea3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857576533,
+        "stop" : 1598857600886,
+        "duration" : 24353
+      }
+    }, {
+      "uid" : "4fe6a89bf4463fe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598857560342,
+        "stop" : 1598857571101,
+        "duration" : 10759
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29c1a47d3259e4b3.json",
+  "parameterValues" : [ "ie" ]
+}
