@@ -6,12 +6,12 @@
 Run tests with command:
 
 ```bash
-$ ./mvnw clean test site
+$ ./mvn clean test site
 ```
-List of used emails and measure of execution time will be generated to `target/app.log` file.
+List of used emails and measurement of execution time will be generated to `target/app.log` file.
 
 Default TestNG report will be generated to `target/surefire-reports` folder.
-Allure report will be generated to `target/site/allure-maven-plugin` folder. 
+Allure report will be generated to `target/site/allure-maven-plugin` folder. (There is underinvestigated issue. It creates report not for all test suites)
 
 
 
@@ -30,7 +30,7 @@ Also it contains Page Object classes.
 
 Package "com.testProject.tests" contains tests which will be executed.
 
-Folder "src\test\resources\testSuites" contains test suites for running. There is main suite that is run all suites (for different threads number)
+Folder "src\test\resources\testSuites" contains test suites (for different threads) for running. There is main suite that runs all suites (for different threads number).
 
 
 
