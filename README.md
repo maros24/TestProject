@@ -26,12 +26,12 @@ Allure report will be generated to `target/site/allure-maven-plugin` folder. (Th
 
 ### Project Stucture
 
-Package "com.testProject.conf" contains basic configurations e.g. driver creating, tests initializing, helper methods.
+Package `com.testProject.conf` contains basic configurations e.g. driver creating, tests initializing, helper methods.
 Also it contains Page Object classes.
 
-Package "com.testProject.tests" contains tests which will be executed.
+Package `com.testProject.tests` contains tests which will be executed.
 
-Folder "src\test\resources\testSuites" contains test suites (for different threads) for running. There is main suite that runs all suites (for different threads number).
+Folder `src\test\resources\testSuites` contains test suites (for different threads) for running. There is main suite that runs all suites (for different threads number).
 
 
 
